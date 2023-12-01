@@ -3,8 +3,8 @@
 
 def main():
     camel = input("camelCase: ")
-    snake = camel_to_snake(camel)
-    print("snake_case: ", snake)
+    snake = camel_to_snake(camel).lower()
+    print(snake)
 
 
 def camel_to_snake(n):
