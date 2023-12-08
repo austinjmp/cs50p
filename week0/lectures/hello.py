@@ -28,7 +28,6 @@
 # call the parameter 'to' as in hello 'to' someone
 # def hello(to="world"): #assign 'world' as argument if no argument is provided
 #     print("Hello,", to)
-import OS
 
 def main():
     name = input("What is your name? ")
