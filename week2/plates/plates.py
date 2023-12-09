@@ -47,10 +47,11 @@ def punctuation(plate_punc):
 def num_check(plate_nums):
     plate_nums = plate_nums.lower()
     remove_letters = plate_nums.lstrip("abcdefghijklmnopqrstuvwxyz")
-    if remove_letters[0] == "0":  # check for leading 0
+    if remove_letters == "":
+        return True
+    elif remove_letters[0] == "0":  # check for leading 0
         return False
     else:
         return remove_letters.isnumeric()  # check for trailing letters
-
 
 main()
