@@ -28,7 +28,7 @@
 students = [
     {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
-    {"name": "Ron", "house": "Gryffindor", "patronus": "JRT"},
+    {"name": "Ron", "house": "Gryffindor", "pa tronus": "JRT"},
     {"name": "Draco", "house": "Slytherin", "patronus": None},
 ]
 
