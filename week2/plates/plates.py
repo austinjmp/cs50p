@@ -54,4 +54,5 @@ def num_check(plate_nums):
     else:
         return remove_letters.isnumeric()  # check for trailing letters
 
+
 main()
